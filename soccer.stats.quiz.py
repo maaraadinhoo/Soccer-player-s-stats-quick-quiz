@@ -13,7 +13,7 @@ else:
 print()
 print("-"*50)
 print()
-answer = input('how many goals does C.Ronaldo have in his career? ')
+answer = input('how many goals does C.Ronaldo have in his career? in (8/22/2022) ')
 if answer == '814':
   print('Bravo!')
   score +=1
@@ -24,7 +24,7 @@ else:
 print()
 print("-"*50)
 print()
-answer = input('how many goals does Neymar Jr have in his career? ')
+answer = input('how many goals does Neymar Jr have in his career? in (8/22/2022)')
 if answer == '420':
   print('Bravo!')
   score +=1
@@ -35,7 +35,7 @@ else:
 print()
 print("-"*50)
 print()
-answer = input('how many goals does L.Messi have in his career? ')
+answer = input('how many goals does L.Messi have in his career? in (8/22/2022)')
 if answer == '773':
   print('Bravo!')
   score +=1
@@ -44,4 +44,4 @@ else:
   print('sorry wrong anwer')
   score = 0
 print('-'*50)
-print('you earned ' + str(score) + ' points today')
+print('congrats you earned ' + str(score) + ' points today')
